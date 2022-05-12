@@ -1,15 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="icon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="./css/style.css">
 	<title>cssMemSlider</title>
 </head>
 
 <body>
-
+	<div class="wrapper">
+		<input type="radio" name="s" id="s1" checked>
+		<input type="radio" name="s" id="s2">
+		<input type="radio" name="s" id="s3">
+		<input type="radio" name="s" id="s4">
+		<input type="radio" name="s" id="s5">
+		<div class="slider">
+			<div class="slider-items">
+				<div class="item target">
+					<img src="./assets/img/1.jpg" alt="slider-img">
+				</div>
+				<div class="item">
+					<img src="./assets/img/2.jpg" alt="slider-img">
+				</div>
+				<div class="item">
+					<img src="./assets/img/3.jpeg" alt="slider-img">
+				</div>
+				<div class="item">
+					<img src="./assets/img/4.jpeg" alt="slider-img">
+				</div>
+				<div class="item">
+					<img src="./assets/img/5.jpeg" alt="slider-img">
+				</div>
+			</div>
+		</div>
+		<div class="nav-section">
+			<div class="nav-section-wrapper">
+				<div class="slider-mems mems">
+					<div class="mems-item mem1">
+						<p>Прежде чем ссориться с женщиной, тысячу раз подумай...</p>
+					</div>
+					<div class="mems-item mem2">
+						<p>Раздумывая о вечном...</p>
+					</div>
+					<div class="mems-item mem3">
+						<p>И пусть весь мир подождет...</p>
+					</div>
+					<div class="mems-item mem4">
+						<p>Когда очень боишься мышей...</p>
+					</div>
+					<div class="mems-item mem5">
+						<p>Я ведь и вправду хорош...</p>
+					</div>
+				</div>
+				<div class="slider-nav">
+					<label for="s1" class="slider-nav-item first"></label>
+					<label for="s2" class="slider-nav-item second"></label>
+					<label for="s3" class="slider-nav-item third"></label>
+					<label for="s4" class="slider-nav-item forth"></label>
+					<label for="s5" class="slider-nav-item fifth"></label>
+				</div>
+			</div>
+		</div>
+	</div>
 </body>
 
 </html>
